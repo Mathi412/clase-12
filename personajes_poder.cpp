@@ -2,21 +2,17 @@
 #include <string>
 using namespace std;
 
-struct Personaje_1 {
+struct Personaje {
  string nombre;
  int p_poder;
 };
 
-struct Personaje_2 {
- string nombre;
- int p_poder;
-};
 
 int main() 
 {
 	 
-	 Personaje_1 p1;
-	 Personaje_2 p2;
+	 Personaje p1;
+	 Personaje p2;
 	 
 	 cout<<"Ingrese el nombre del PRIMER personaje"<<"\n";
 	 cin>>p1.nombre;
